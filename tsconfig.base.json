@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@next-nest/api": ["apps/api/src/index.ts"],
+      "@next-nest/marketing": ["apps/marketing/src/index.ts"],
+      "@src/*": ["apps/marketing/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
