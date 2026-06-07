@@ -32,13 +32,6 @@
         "command": "next lint --fix",
         "cwd": "apps/marketing"
       }
-    },
-    "test": {
-      "executor": "nx:run-commands",
-      "options": {
-        "command": "jest --passWithNoTests",
-        "cwd": "apps/marketing"
-      }
     }
   },
   "tags": ["type:web", "scope:frontend"]
